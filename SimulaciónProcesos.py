@@ -116,5 +116,5 @@ varianza = 0
 for x in lista:
     varianza += (x-media)**2
     
-desv = math.sqrt(varianza)
+desv = math.sqrt(varianza/cantProcesos)
 print ("Desviacion estandar: ", desv)
